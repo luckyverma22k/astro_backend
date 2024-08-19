@@ -27,7 +27,7 @@ console.log(`CLOUDINARY_API_KEY: ${process.env.CLOUDINARY_API_KEY}`);
 
 app.use(cors({
     origin:[process.env.FRONTEND_URL,process.env.DASHBOARD_URL],
-    methodS:["GET","POST","PUT","DELETE","OPTIONS"],
+    methodS:["GET","POST","PUT","DELETE"],
     credentials:true 
 }));
 
